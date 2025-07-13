@@ -27,7 +27,7 @@
 							"lat": "LATITUDE",
 							"lng": "LONGITUDE"
 						},
-						"isVisible": True,
+						"isVisible": true,
 						"visConfig": {
 							"radius": 10,
 							"fixedRadius": False, 
