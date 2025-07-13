@@ -1,21 +1,16 @@
-{
-	"version": "v1",
-	"config": {
-		"visState": {
-			"filters": [
-			],
-			"layers": [
-				{
-					"id": "7ua343p",
-					"type": "arc",
+ {'version': 'v1',
+ 'config': {'visState': {'filters': [],
+   'layers': [				{
+					"id": "o26nfsn",
+					"type": "point",
 					"config": {
 						"dataId": "flows",
 						"columnMode": "points",
-						"label": "poi_cbg -> home_cbg arc",
+						"label": "POI",
 						"color": [
-							146,
-							38,
-							198
+							234,
+							68,
+							68
 						],
 						"highlightColor": [
 							252,
@@ -24,15 +19,17 @@
 							255
 						],
 						"columns": {
-							"lat0": "POI_CBG_LAT",
-							"lng0": "POI_CBG_LON",
-							"lat1": "HOME_CBG_LAT",
-							"lng1": "HOME_CBG_LON"
+							"lat": "POI_CBG_LAT",
+							"lng": "POI_CBG_LON"
 						},
-						"isVisible": true,
+						"isVisible": True,
 						"visConfig": {
+							"radius": 10,
+							"fixedRadius": False,
 							"opacity": 0.8,
-							"thickness": 1,
+							"outline": False,
+							"thickness": 2,
+							"strokeColor": None,
 							"colorRange": {
 								"name": "Global Warming",
 								"type": "sequential",
@@ -46,16 +43,33 @@
 									"#FFC300"
 								]
 							},
-							"sizeRange": [
+							"strokeColorRange": {
+								"name": "Global Warming",
+								"type": "sequential",
+								"category": "Uber",
+								"colors": [
+									"#4C0035",
+									"#880030",
+									"#B72F15",
+									"#D6610A",
+									"#EF9100",
+									"#FFC300"
+								]
+							},
+							"radiusRange": [
 								0,
-								60
+								50
 							],
-							"targetColor": null
+							"filled": True,
+							"billboard": False,
+							"allowHover": True,
+							"showNeighborOnHover": False,
+							"showHighlightColor": True
 						},
-						"hidden": false,
+						"hidden": False,
 						"textLabel": [
 							{
-								"field": null,
+								"field": None,
 								"color": [
 									255,
 									255,
@@ -75,7 +89,7 @@
 									0,
 									255
 								],
-								"background": false,
+								"background": False,
 								"backgroundColor": [
 									0,
 									0,
@@ -86,118 +100,94 @@
 						]
 					},
 					"visualChannels": {
-						"colorField": null,
+						"colorField": None,
 						"colorScale": "quantile",
-						"sizeField": {
-							"name": "VISITOR_COUNT",
-							"type": "integer"
-						},
+						"strokeColorField": None,
+						"strokeColorScale": "quantile",
+						"sizeField": None,
 						"sizeScale": "linear"
 					}
-				}
-			],
-			"effects": [
-			],
-			"interactionConfig": {
-				"tooltip": {
-					"fieldsToShow": {
-						"flows": [
-							{
-								"name": "PLACEKEY",
-								"format": null
-							},
-							{
-								"name": "POI_CBG",
-								"format": null
-							},
-							{
-								"name": "HOME_CBG",
-								"format": null
-							},
-							{
-								"name": "VISITOR_COUNT",
-								"format": null
-							},
-							{
-								"name": "POI_CBG_LAT",
-								"format": null
-							}
-						]
-					},
-					"compareMode": false,
-					"compareType": "absolute",
-					"enabled": true
 				},
-				"brush": {
-					"size": 0.5,
-					"enabled": false
-				},
-				"geocoder": {
-					"enabled": false
-				},
-				"coordinate": {
-					"enabled": false
-				}
-			},
-			"layerBlending": "normal",
-			"overlayBlending": "normal",
-			"splitMaps": [
-			],
-			"animationConfig": {
-				"currentTime": null,
-				"speed": 1
-			},
-			"editor": {
-				"features": [
-				],
-				"visible": true
-			}
-		},
-		"mapState": {
-			"bearing": 61.08625987287537,
-			"dragRotate": true,
-			"latitude": 40.793087502484234,
-			"longitude": -77.72197080107902,
-			"pitch": 59.00025548769729,
-			"zoom": 9.9734297028334,
-			"isSplit": false,
-			"isViewportSynced": true,
-			"isZoomLocked": false,
-			"splitMapViewports": [
-			]
-		},
-		"mapStyle": {
-			"styleType": "dark-matter",
-			"topLayerGroups": {
-			},
-			"visibleLayerGroups": {
-				"label": true,
-				"road": true,
-				"border": true,
-				"building": true,
-				"water": true,
-				"land": true,
-				"3d building": true
-			},
-			"threeDBuildingColor": [
-				15.035172933000911,
-				15.035172933000911,
-				15.035172933000911
-			],
-			"backgroundColor": [
-				0,
-				0,
-				0
-			],
-			"mapStyles": {
-			}
-		},
-		"uiState": {
-			"mapControls": {
-				"mapLegend": {
-					"active": false
-				}
-			}
-		}
-	}
-}
+                 {'id': '7ua343p',
+     'type': 'arc',
+     'config': {'dataId': 'flows',
+      'columnMode': 'points',
+      'label': 'poi_cbg -> home_cbg arc',
+      'color': [146, 38, 198],
+      'highlightColor': [252, 242, 26, 255],
+      'columns': {'lat0': 'POI_CBG_LAT',
+       'lng0': 'POI_CBG_LON',
+       'lat1': 'HOME_CBG_LAT',
+       'lng1': 'HOME_CBG_LON'},
+      'isVisible': True,
+      'visConfig': {'opacity': 0.8,
+       'thickness': 1,
+       'colorRange': {'name': 'Global Warming',
+        'type': 'sequential',
+        'category': 'Uber',
+        'colors': ['#4C0035',
+         '#880030',
+         '#B72F15',
+         '#D6610A',
+         '#EF9100',
+         '#FFC300']},
+       'sizeRange': [0, 0.6],
+       'targetColor': None},
+      'hidden': False,
+      'textLabel': [{'field': None,
+        'color': [255, 255, 255],
+        'size': 18,
+        'offset': [0, 0],
+        'anchor': 'start',
+        'alignment': 'center',
+        'outlineWidth': 0,
+        'outlineColor': [255, 0, 0, 255],
+        'background': False,
+        'backgroundColor': [0, 0, 200, 255]}]},
+     'visualChannels': {'colorField': None,
+      'colorScale': 'quantile',
+      'sizeField': {'name': 'VISITOR_COUNT', 'type': 'integer'},
+      'sizeScale': 'linear'}}],
+   'effects': [],
+   'interactionConfig': {'tooltip': {'fieldsToShow': {'flows': [{'name': 'PLACEKEY',
+        'format': None},
+       {'name': 'POI_CBG', 'format': None},
+       {'name': 'HOME_CBG', 'format': None},
+       {'name': 'VISITOR_COUNT', 'format': None},
+       {'name': 'POI_CBG_LAT', 'format': None}]},
+     'compareMode': False,
+     'compareType': 'absolute',
+     'enabled': True},
+    'brush': {'size': 0.5, 'enabled': False},
+    'geocoder': {'enabled': False},
+    'coordinate': {'enabled': False}},
+   'layerBlending': 'normal',
+   'overlayBlending': 'normal',
+   'splitMaps': [],
+   'animationConfig': {'currentTime': None, 'speed': 1},
+   'editor': {'features': [], 'visible': True}},
+  'mapState': {'bearing': 61.08625987287537,
+   'dragRotate': True,
+   'latitude': 40.793087502484234,
+   'longitude': -77.72197080107902,
+   'pitch': 59.00025548769729,
+   'zoom': 9.9734297028334,
+   'isSplit': False,
+   'isViewportSynced': True,
+   'isZoomLocked': False,
+   'splitMapViewports': []},
+  'mapStyle': {'styleType': 'dark-matter',
+   'topLayerGroups': {},
+   'visibleLayerGroups': {'label': True,
+    'road': True,
+    'border': True,
+    'building': True,
+    'water': True,
+    'land': True,
+    '3d building': True},
+   'threeDBuildingColor': [15.035172933000911,
+    15.035172933000911,
+    15.035172933000911],
+   'backgroundColor': [0, 0, 0],
+   'mapStyles': {}},
+  'uiState': {'mapControls': {'mapLegend': {'active': True}}}}}
