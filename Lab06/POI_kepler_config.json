@@ -9,7 +9,7 @@
 					"id": "7ua343p",
 					"type": "arc",
 					"config": {
-						"dataId": "flows",
+						"dataId": "-lwcun",
 						"columnMode": "points",
 						"label": "poi_cbg -> home_cbg arc",
 						"color": [
@@ -32,7 +32,7 @@
 						"isVisible": true,
 						"visConfig": {
 							"opacity": 0.8,
-							"thickness": 0.6,
+							"thickness": 1,
 							"colorRange": {
 								"name": "Global Warming",
 								"type": "sequential",
@@ -101,7 +101,7 @@
 			"interactionConfig": {
 				"tooltip": {
 					"fieldsToShow": {
-						"flows": [
+						"-lwcun": [
 							{
 								"name": "PLACEKEY",
 								"format": null
