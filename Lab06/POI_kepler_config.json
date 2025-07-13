@@ -11,7 +11,7 @@
 					"config": {
 						"dataId": "flows",
 						"columnMode": "points",
-						"label": "new layer",
+						"label": "POI",
 						"color": [
 							234,
 							68,
