@@ -24,8 +24,8 @@
 							255
 						],
 						"columns": {
-							"lat": "POI_CBG_LAT",
-							"lng": "POI_CBG_LON"
+							"lat": "LATITUDE",
+							"lng": "LONGITUDE"
 						},
 						"isVisible": true,
 						"visConfig": {
