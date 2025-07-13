@@ -9,7 +9,7 @@
 					"id": "7ua343p",
 					"type": "arc",
 					"config": {
-						"dataId": "-lwcun",
+						"dataId": "flows",
 						"columnMode": "points",
 						"label": "poi_cbg -> home_cbg arc",
 						"color": [
@@ -101,7 +101,7 @@
 			"interactionConfig": {
 				"tooltip": {
 					"fieldsToShow": {
-						"-lwcun": [
+						"flows": [
 							{
 								"name": "PLACEKEY",
 								"format": null
