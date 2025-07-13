@@ -46,9 +46,9 @@
 									"#FFC300"
 								]
 							},
-							"flowsRange": [
+							"sizeRange": [
 								0,
-								0.6
+								60
 							],
 							"targetColor": null
 						},
@@ -61,7 +61,7 @@
 									255,
 									255
 								],
-								"flows": 18,
+								"size": 18,
 								"offset": [
 									0,
 									0
@@ -88,11 +88,11 @@
 					"visualChannels": {
 						"colorField": null,
 						"colorScale": "quantile",
-						"flowsField": {
+						"sizeField": {
 							"name": "VISITOR_COUNT",
 							"type": "integer"
 						},
-						"flowsScale": "linear"
+						"sizeScale": "linear"
 					}
 				}
 			],
@@ -129,7 +129,7 @@
 					"enabled": true
 				},
 				"brush": {
-					"flows": 0.5,
+					"size": 0.5,
 					"enabled": false
 				},
 				"geocoder": {
@@ -154,12 +154,12 @@
 			}
 		},
 		"mapState": {
-			"bearing": 67.01056047627637,
+			"bearing": 61.08625987287537,
 			"dragRotate": true,
-			"latitude": 40.8700332321247,
-			"longitude": -77.7775229333682,
-			"pitch": 58.61479008475832,
-			"zoom": 10.521488619750352,
+			"latitude": 40.793087502484234,
+			"longitude": -77.72197080107902,
+			"pitch": 59.00025548769729,
+			"zoom": 9.9734297028334,
 			"isSplit": false,
 			"isViewportSynced": true,
 			"isZoomLocked": false,
