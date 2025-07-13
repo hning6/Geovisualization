@@ -46,7 +46,7 @@
 									"#FFC300"
 								]
 							},
-							"sizeRange": [
+							"flowsRange": [
 								0,
 								0.6
 							],
@@ -61,7 +61,7 @@
 									255,
 									255
 								],
-								"size": 18,
+								"flows": 18,
 								"offset": [
 									0,
 									0
@@ -88,11 +88,11 @@
 					"visualChannels": {
 						"colorField": null,
 						"colorScale": "quantile",
-						"sizeField": {
+						"flowsField": {
 							"name": "VISITOR_COUNT",
 							"type": "integer"
 						},
-						"sizeScale": "linear"
+						"flowsScale": "linear"
 					}
 				}
 			],
@@ -129,7 +129,7 @@
 					"enabled": true
 				},
 				"brush": {
-					"size": 0.5,
+					"flows": 0.5,
 					"enabled": false
 				},
 				"geocoder": {
