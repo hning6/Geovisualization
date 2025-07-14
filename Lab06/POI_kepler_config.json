@@ -113,6 +113,89 @@
 						"sizeScale": "linear"
 					}
 				},
+ {
+  "id": "gi480ix",
+  "type": "geojson",
+  "config": {
+    "dataId": "home blockgroups",
+    "label": "home_CBG",
+      "columns": {
+    "geojson": "_geojson"
+  },
+    "color": [235, 248, 225],
+    "highlightColor": [252, 242, 26, 255],
+    "isVisible": true,
+    "visConfig": {
+      "opacity": 0.03,
+      "strokeOpacity": 0.8,
+      "thickness": 0.2,
+      "strokeColor": [255, 254, 213],
+      "colorRange": {
+        "name": "Global Warming",
+        "type": "sequential",
+        "category": "Uber",
+        "colors": [
+          "#4C0035",
+          "#880030",
+          "#B72F15",
+          "#D6610A",
+          "#EF9100",
+          "#FFC300"
+        ]
+      },
+      "strokeColorRange": {
+        "name": "Global Warming",
+        "type": "sequential",
+        "category": "Uber",
+        "colors": [
+          "#4C0035",
+          "#880030",
+          "#B72F15",
+          "#D6610A",
+          "#EF9100",
+          "#FFC300"
+        ]
+      },
+      "radius": 10,
+      "sizeRange": [0, 10],
+      "radiusRange": [0, 50],
+      "heightRange": [0, 500],
+      "elevationScale": 5,
+      "stroked": true,
+      "filled": true,
+      "enable3d": false,
+      "wireframe": false,
+      "fixedHeight": false
+    },
+    "hidden": false,
+    "textLabel": [
+      {
+        "field": null,
+        "color": [255, 255, 255],
+        "size": 18,
+        "offset": [0, 0],
+        "anchor": "start",
+        "alignment": "center",
+        "outlineWidth": 0,
+        "outlineColor": [255, 0, 0, 255],
+        "background": false,
+        "backgroundColor": [0, 0, 200, 255]
+      }
+    ]
+  },
+  "visualChannels": {
+    "colorField": null,
+    "colorScale": "quantile",
+    "strokeColorField": null,
+    "strokeColorScale": "quantile",
+    "sizeField": null,
+    "sizeScale": "linear",
+    "heightField": null,
+    "heightScale": "linear",
+    "radiusField": null,
+    "radiusScale": "linear"
+  }
+},
 				{
 					"id": "7ua343p",
 					"type": "arc",
@@ -203,6 +286,8 @@
 						"sizeScale": "linear"
 					}
 				}
+
+                
 			],
 			"effects": [
 			],
