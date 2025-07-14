@@ -211,23 +211,31 @@
 					"fieldsToShow": {
 						"flows": [
 							{
-								"name": "PLACEKEY",
+								"name": "BRANDS",
 								"format": null
 							},
 							{
-								"name": "POI_CBG",
-								"format": null
+								"name": "LOCATION_NAME",
+								"format": null               
 							},
 							{
 								"name": "HOME_CBG",
 								"format": null
 							},
 							{
-								"name": "VISITOR_COUNT",
+								"name": "STREET_ADDRESS",    
 								"format": null
 							},
 							{
-								"name": "POI_CBG_LAT",
+								"name": "CITY",                                         
+								"format": null
+							},						
+							{
+								"name": "REGION",                                                
+								"format": null
+							},								
+							{
+								"name": "VISITOR_COUNT",
 								"format": null
 							}
 						]
