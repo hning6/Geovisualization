@@ -216,24 +216,24 @@
 							},
 							{
 								"name": "LOCATION_NAME",
-								"format": null               
+								"format": null
 							},
 							{
 								"name": "HOME_CBG",
 								"format": null
 							},
 							{
-								"name": "STREET_ADDRESS",    
+								"name": "STREET_ADDRESS",
 								"format": null
 							},
 							{
-								"name": "CITY",                                         
+								"name": "CITY",
 								"format": null
-							},						
+							},
 							{
-								"name": "REGION",                                                
+								"name": "REGION",                          
 								"format": null
-							},								
+							},
 							{
 								"name": "VISITOR_COUNT",
 								"format": null
