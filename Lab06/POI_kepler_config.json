@@ -133,7 +133,7 @@
 						],
 						"columns": {
 							"lat0": "HOME_CBG_LAT",
-							"lng0": "HOME_CBG_LON",    
+							"lng0": "HOME_CBG_LON",
 							"lat1": "LATITUDE",
 							"lng1": "LONGITUDE"
 						},
