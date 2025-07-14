@@ -378,7 +378,7 @@
 				"building": true,
 				"water": true,
 				"land": true,
-				"3d building": true
+				"3d building": false
 			},
 			"threeDBuildingColor": [
 				15.035172933000911,
